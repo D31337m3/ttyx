@@ -1,0 +1,15 @@
+V1.0 
+
+Initial Release 
+
+	DESCRIPTION:
+
+		Allows user to send commands to a remote Terminal and Have it Executed and displayed on the
+		remote host.
+		EXAMPLE:  There is a remote Terminal running on a machine to which you only have SSH access
+		and you want to display HTOP in the Terminal to show the Machines performance stats.
+
+		USAGE:   $ sudo ttyx [ -n (new line after cmd)] [DEVICE] [COMMAND]
+
+		WORKING EXAMPLE: $ sudo ttyx -n /dev/tty1 htop
+
