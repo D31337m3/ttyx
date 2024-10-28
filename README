@@ -13,3 +13,11 @@ Initial Release
 
 		WORKING EXAMPLE: $ sudo ttyx -n /dev/tty1 htop
 
+INSTALLATION:
+
+		git clone https://github.com/D31337m3/ttyx.git 
+
+		make
+
+		sudo cp ttyx ./bin 
+
