@@ -12,8 +12,7 @@ void print_help(char *prog_name) {
         printf("WARNING: Sudo is required if executable is not setuid root\n");
 	printf("__________________________________________________________\n");
 	printf(" %s v1.0        Coded By Devin Ranger 2024\n", prog_name);
-	printf("__________________________________________________________\n")
-	printf("
+	printf("__________________________________________________________\n");
         exit(1);
 }
 
